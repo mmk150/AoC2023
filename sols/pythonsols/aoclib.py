@@ -1,4 +1,4 @@
-inputs_path = "../inputs"
+inputs_path = "../../inputs"
 
 
 def get_input(day_num):
