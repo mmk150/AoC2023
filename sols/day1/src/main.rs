@@ -16,7 +16,7 @@ fn main() {
     let ans1 = part_one(&contents);
     let ans2 = part_two(&contents);
     println!("Part1 answer:{}", ans1);
-    println!("Part1 answer:{}", ans2);
+    println!("Part2 answer:{}", ans2);
 }
 
 fn part_one(content: &str) -> i32 {
