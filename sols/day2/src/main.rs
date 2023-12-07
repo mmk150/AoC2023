@@ -66,8 +66,6 @@ fn part_one(contents: &str) -> i32 {
 }
 
 fn part_two(contents: &str) -> i32 {
-    //red,green,blue
-
     let mut sum: i32 = 0;
     let mut i: i32 = 0;
     for line in contents.lines() {

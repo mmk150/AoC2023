@@ -2,13 +2,13 @@ use std::env;
 use std::error::Error;
 use std::fs;
 
-const path: &str = "../inputs/day";
+const path: &str = "../../inputs/day";
 
-fn read(day_num: i32) {
+fn read(day_num: i32) -> String {
     let final_path: &str = &(path.to_owned() + &day_num.to_string() + ".txt");
     println!("{}", final_path);
     let content = fs::read_to_string(final_path).expect("Should have been able to read the file");
-    println!("{content}")
+    return content;
 }
 
 fn main() {
